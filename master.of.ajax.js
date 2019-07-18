@@ -1,5 +1,5 @@
 $(function () {
-    $(document).on('click', 'a[ajax=submit-form]', function (e) {
+    $(document).on('click', 'a[ajax=submit-form], button[ajax=submit-form]', function (e) {
         e.preventDefault();
 
         var element = $(this);
